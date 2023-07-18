@@ -1,0 +1,36 @@
+.phoneBookForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    box-shadow: 2px 4px 6px  #c0bfc1;
+}
+
+.formName {
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.formInput{
+    display: block;
+    margin-top: 10px;
+}
+
+.formButton {
+    font-size: 14px;
+    font-weight: 500px;
+    width: 100px;
+    height: 28px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: #e8e4e4;
+}
+
+.formButton:hover,
+.formButton:focus {
+    background-color: #2a4fe1;
+    color: #ffffff;
+}

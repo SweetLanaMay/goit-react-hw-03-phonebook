@@ -1,0 +1,16 @@
+.contactsItem {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px  #c0bfc1;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+    border: 3px solid #3f92e5;
+}
